@@ -32,25 +32,47 @@ Project Structure:
 
 MarkWebApp/ 
 ├── WebContent/ 
-│ ├── index.jsp 
-│ ├── markadd.jsp 
-│ ├── markupdate.jsp 
-│ ├── markdelete.jsp 
+
+│ ├── index.jsp
+
+│ ├── markadd.jsp
+
+│ ├── markupdate.jsp
+
+│ ├── markdelete.jsp
+
 │ ├── markdisplay.jsp
+
 │ ├── reports.jsp 
-│ ├── report_form.jsp 
+
+│ ├── report_form.jsp
+
 │ └── report_result.jsp
+
 ├── src/ 
+
 │ ├── com/ 
-│ ├── dao/ 
+
+│ ├── dao/
+
 │ │ └── MarkDAO.java 
+
 │ ├── model/ 
+
 │ │ └── StudentMark.java 
+
 │ └── servlet/ 
+
 │ ├── AddMarkServlet.java 
-│ ├── UpdateMarkServlet.java 
+
+│ ├── UpdateMarkServlet.java
+
 │ ├── DeleteMarkServlet.java 
+
 │ ├── DisplayMarksServlet.java 
+
 │ ├── ReportServlet.java 
+
 │ └── ReportCriteriaServlet.java 
+
 └── WEB-INF/web.xml
